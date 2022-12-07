@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    width: 100vw;
+    height: 100vh;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(82, 82, 82);
+    position: relative;
+    
+
+}
+.cont ul{
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    /* border: 1px solid red; */
+    top: 0;
+    margin-left: 150px;
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#colors{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+}
+.pl :hover{
+    background-color: grey;
+}
+#pl :hover{
+    background-color: grey;
+}
+#add{
+    /* border: 1px solid red; */
+    width: 120px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+}
+#add span{
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.items{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+#pink{
+    background-color: palevioletred;
+}
+#sblu{
+    background-color: skyblue;
+}
+#teal{
+    background-color: teal;
+}
+#blk{
+    background-color: black;
+}
+
+#maindiv{
+    /* border: 30px solid grey; */
+    height: 400px;
+    width: 500px;
+    margin-top: -620px;
+    margin-left: 500px;
+    display: flex;
+}
+#div1{
+    width: 70%;
+    height: 100%;
+    border: 20px solid grey;
+    border-radius: 1px solid black;
+    /* background-color: blue; */
+}
+#div2{
+    width: 30%;
+    height: 100%;
+    border: 20px solid rgb(49, 48, 48);
+    border-radius: 1px solid black;
+    /* background-color: blue; */
+}
+#hlo{
+    width: 100%;
+    height: 100%;
+    border: 0px solid white;
+}
+.items1{
+    width: 110px;
+    height: 90px;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
